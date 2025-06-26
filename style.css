@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+.resume-container {
+  width: 70%;
+  margin: 10px auto;
+  padding: 15px;
+  border: 2px solid #f2f2f2;
+}
+#name {
+  font-size: 1.5rem;
+  margin-left: 8px;
+  font-weight: 700;
+}
+
+.header span {
+  font-size: 0.9em;
+  margin: 0 8px;
+}
+i{
+    margin-right: 8px;
+}
+.header a{
+    text-decoration: none;
+}
+.divider {
+  border: 1px solid black;
+}
+hr {
+  margin: 6px 0;
+}
+
+.section-title {
+  font-size: 1rem;
+  background-color: #f2f2f2;
+  margin: 8px;
+  padding: 3px 8px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.goal {
+  text-align: center;
+}
+
+.section-content {
+  margin: 0 10px;
+  padding: 3px 8px;
+}
+p {
+  text-align: justify;
+}
+.edu-details span {
+  margin-right: 15px;
+}
+.edu-details .cource {
+  font-weight: 600;
+}
+
+.project-details {
+  margin-bottom: 8px;
+  
+}
+.project-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.skill-heading {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0 20px;
+  padding: 0 8px;
+}
+.certi-btn{
+    border-radius: 10px;
+    border-style: none;
+    background-color: transparent;
+}
+.certi-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+.p-detail-heading{
+    font-weight: 600;
+}
