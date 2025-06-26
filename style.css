@@ -22,17 +22,19 @@
 i {
   margin-right: 8px;
 }
-.header a {
+a {
   text-decoration: none;
 }
 .divider {
-  border: 1px solid black;
+  
+  border: 1px solid rgba(0, 0, 0, 0.692);
 }
 hr {
   margin: 6px 0;
 }
 
 .section-title {
+  cursor: pointer;
   font-size: 1rem;
   background-color: #f2f2f2;
   margin: 15px 8px;
@@ -40,10 +42,13 @@ hr {
   font-weight: 600;
   border-radius: 6px;
 }
+.section-title:hover {
+  background-color: rgb(207, 207, 207);
+  transform: scale(1.02);
+}
 .section-content {
-  margin: 0 10px;
-  padding: 3px 8px;
-  display: block;
+  margin: 10px 0;
+  padding: 0 15px;
 }
 .goal {
   text-align: center;
@@ -60,7 +65,13 @@ p {
 }
 
 .project-details {
-  margin-bottom: 8px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.project-details:last-child {
+  border-bottom: none;
 }
 .project-title {
   font-size: 1rem;
@@ -81,7 +92,6 @@ ul {
   background-color: transparent;
 }
 .certi-btn a {
-  text-decoration: none;
   color: black;
   font-weight: 600;
   font-size: 1rem;
