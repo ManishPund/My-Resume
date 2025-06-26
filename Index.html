@@ -188,6 +188,7 @@
         </h2>
         <div class="section-content">
           <button class="certi-btn">
+            <i class="fa-solid fa-link"></i>
             <a href="Python Certificate(IIT Bombay).pdf"
               >Python 3.4.3 Training</a
             >
@@ -214,5 +215,20 @@
         </div>
       </div>
     </div>
+    <script>
+      document.querySelectorAll(".section-title").forEach((title) => {
+        title.addEventListener("click", () => {
+          
+          const content = title.nextElementSibling;
+
+          
+          if (content.style.display === "none") {
+            content.style.display = "block";
+          } else {
+            content.style.display = "none";
+          }
+        });
+      });
+    </script>
   </body>
 </html>

@@ -5,7 +5,7 @@
 }
 .resume-container {
   width: 70%;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 15px;
   border: 2px solid #f2f2f2;
 }
@@ -19,11 +19,11 @@
   font-size: 0.9em;
   margin: 0 8px;
 }
-i{
-    margin-right: 8px;
+i {
+  margin-right: 8px;
 }
-.header a{
-    text-decoration: none;
+.header a {
+  text-decoration: none;
 }
 .divider {
   border: 1px solid black;
@@ -35,19 +35,20 @@ hr {
 .section-title {
   font-size: 1rem;
   background-color: #f2f2f2;
-  margin: 8px;
+  margin: 15px 8px;
   padding: 3px 8px;
   font-weight: 600;
   border-radius: 6px;
+}
+.section-content {
+  margin: 0 10px;
+  padding: 3px 8px;
+  display: block;
 }
 .goal {
   text-align: center;
 }
 
-.section-content {
-  margin: 0 10px;
-  padding: 3px 8px;
-}
 p {
   text-align: justify;
 }
@@ -60,7 +61,6 @@ p {
 
 .project-details {
   margin-bottom: 8px;
-  
 }
 .project-title {
   font-size: 1rem;
@@ -75,19 +75,18 @@ ul {
   margin: 0 20px;
   padding: 0 8px;
 }
-.certi-btn{
-    border-radius: 10px;
-    border-style: none;
-    background-color: transparent;
+.certi-btn {
+  border-radius: 10px;
+  border-style: none;
+  background-color: transparent;
 }
-.certi-btn a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 1rem;
-
+.certi-btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.p-detail-heading{
-    font-weight: 600;
+.p-detail-heading {
+  font-weight: 600;
 }
